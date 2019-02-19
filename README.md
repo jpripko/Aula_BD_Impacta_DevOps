@@ -1,2 +1,2 @@
 # Aula_BD_Impacta_DevOps
-repositório das Aulas de Devops docurso de banco de dados da faculdade impacta
+repositório das Aulas de Devops doc urso de banco de dados da faculdade impacta
