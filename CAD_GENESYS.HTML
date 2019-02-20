@@ -11,9 +11,21 @@
     <form action ="" method="POST">
         <label><strong>Nome do usuário:</strong></label><br/>
         <input type="text" 
-        maxlength="20" name = "user"/><br/>
+        maxlength="20" name = "user" placeholder="Digite seu nome"/><br/>
         <label>Senha:</label><br/>
-        <input type = "password"maxlength="10" name = "pwd"><br/>
+        <input type = "password"maxlength="10" name = "pwd" required><br/>
+        <label><strong>Estado:</strong></label><br/>
+        <select name="UF">
+            <option value="SP">São Paulo</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Parana</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="DF">Distrito Federal</option>
+        </select> <br/>
+        <br/>
+        <textarea></textarea><br/>
         <input type = "submit" value="Salvar"/>
     </form>
 </body>
